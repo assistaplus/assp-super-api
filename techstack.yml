@@ -1,0 +1,254 @@
+repo_name: assistaplus/assp-super-api
+report_id: dcf121bd3b63de783ea0251b0906d860
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-06T13:42:39+00:00'
+requested_by: gbaeke
+provider: github
+branch: main
+detected_tools_count: 18
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-super-api
+  detection_source: Repo Metadata
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/assistaplus/assp-super-api
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-super-api
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/assistaplus/assp-super-api
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/assistaplus/assp-super-api/blob/main/.github/workflows/aad.yml
+  detection_source: ".github/workflows/aad.yml"
+  last_updated_by: Geert Baeke
+  last_updated_on: 2021-12-05 22:17:55.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/assistaplus/assp-super-api/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: gbaeke
+  last_updated_on: 2022-05-10 21:17:29.000000000 Z
+- name: Visual Studio Code
+  description: Build and debug modern web and cloud applications, by Microsoft
+  website_url: https://code.visualstudio.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source_url: https://github.com/assistaplus/assp-super-api/blob/main/.vscode/tasks.json
+  detection_source: ".vscode/tasks.json"
+  last_updated_by: gbaeke
+  last_updated_on: 2021-11-27 21:34:18.000000000 Z
+- name: autorest
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/autorest
+  version: 0.11.24
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-super-api/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: gbaeke
+  last_updated_on: 2022-05-10 21:17:29.000000000 Z
+- name: mux
+  description: "A powerful HTTP router and URL matcher for building Go web servers
+    with \U0001F98D"
+  package_url: https://pkg.go.dev/github.com/gorilla/mux
+  version: 1.6.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-super-api/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Geert Baeke
+  last_updated_on: 2021-09-28 15:26:26.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-super-api/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Geert Baeke
+  last_updated_on: 2021-09-28 15:26:26.000000000 Z
+- name: pflag
+  description: Drop-in replacement for Go's flag package
+  package_url: https://pkg.go.dev/github.com/spf13/pflag
+  version: 1.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-super-api/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Geert Baeke
+  last_updated_on: 2021-09-28 15:26:26.000000000 Z
+- name: swaggo/swag
+  description: Automatically generate RESTful API documentation with Swagger 2.0 for
+    Go
+  package_url: https://pkg.go.dev/github.com/swaggo/swag
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-super-api/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Geert Baeke
+  last_updated_on: 2021-09-28 15:26:26.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-super-api/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Geert Baeke
+  last_updated_on: 2021-09-28 15:26:26.000000000 Z
+- name: to
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/autorest/to
+  version: 0.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-super-api/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Geert Baeke
+  last_updated_on: 2021-09-28 15:26:26.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-super-api/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Geert Baeke
+  last_updated_on: 2021-09-28 15:26:26.000000000 Z
+- name: validation
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/autorest/validation
+  version: 0.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-super-api/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: gbaeke
+  last_updated_on: 2022-05-10 21:17:29.000000000 Z
+- name: viper
+  description: Go configuration with fangs
+  package_url: https://pkg.go.dev/github.com/spf13/viper
+  version: 1.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-super-api/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Geert Baeke
+  last_updated_on: 2021-09-28 15:26:26.000000000 Z
+- name: zap
+  description: Blazing fast, structured, leveled logging in Go
+  package_url: https://pkg.go.dev/go.uber.org/zap
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/assistaplus/assp-super-api/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Geert Baeke
+  last_updated_on: 2021-09-28 15:26:26.000000000 Z
